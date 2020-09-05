@@ -29,12 +29,12 @@ let pointsf = 0;
   }
   allsgoed = false
 document.getElementById('juist').innerText ='😥je hebt een paar fouten😥'
-document.getElementById('cijfer').innerHTML =  pointsf +  'min punten' ;
+document.getElementById('cijfer').innerHTML =  pointsf +  ' - punten' ;
  }
 });
 
 if (allsgoed) {
   document.getElementById('juist').innerText = '🎊🎉Alle antwoorden zijn correct🎊🎉'
-  document.getElementById('cijfer').innerHTML =  pointsg + ' puls punten ' ;
+  document.getElementById('cijfer').innerHTML =  pointsg + ' + punten' ;
   }
 }
